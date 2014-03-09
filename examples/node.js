@@ -2,7 +2,7 @@ var Node = require('../').Node;
 
 var node = new Node(4321);
 
-node.connect({ host: 'localhost', port: 6785 });
+node.connect([{ host: 'localhost', port: 6785 }]);
 
 node.on('online', function () {
   console.log('I am online:', this.id);
