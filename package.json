@@ -1,0 +1,31 @@
+{
+  "name": "n2n",
+  "version": "0.0.0",
+  "description": "a Node.js P2P network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://patr0nus@github.com/patr0nus/n2n.git"
+  },
+  "keywords": [
+    "p2p"
+  ],
+  "author": "patr0nus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patr0nus/n2n/issues"
+  },
+  "homepage": "https://github.com/patr0nus/n2n",
+  "dependencies": {
+    "request": "~2.34.0",
+    "underscore": "~1.6.0",
+    "smokesignal": "~0.2.0",
+    "remote-events": "~1.1.4",
+    "socket.io": "~0.9.16",
+    "nssocket": "~0.5.1",
+    "node-uuid": "~1.4.1"
+  }
+}

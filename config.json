@@ -1,0 +1,4 @@
+{
+  "serverPort": "4321",
+  "maxConnections": 3
+}
