@@ -13,6 +13,6 @@ node.on('node::online', function (newNode) {
   node.send(newNode.id, 'hello');
 });
 
-node.on('node::hello', function (sender) {
-  console.log('Hello from', sender);
+node.on('node::hello', function (senderId) {
+  console.log('Hello from', senderId);
 });
