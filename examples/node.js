@@ -16,3 +16,7 @@ node.on('node::online', function (newNode) {
 node.on('node::hello', function (senderId) {
   console.log('Hello from', senderId);
 });
+
+node.on('node::offline', function (offlineNodeId) {
+  console.log('Someone is offline:', offlineNodeId);
+});
