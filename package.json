@@ -1,6 +1,6 @@
 {
   "name": "n2n",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a Node.js P2P network",
   "main": "index.js",
   "scripts": {
